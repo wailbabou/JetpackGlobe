@@ -1,0 +1,13 @@
+# =============================================================================
+# Maven Central / OSSRH credentials  (DO NOT commit real values)
+# Store these in ~/.gradle/gradle.properties or CI environment secrets
+# =============================================================================
+
+# Your Sonatype OSSRH account (https://central.sonatype.com)
+# OSSRH_USERNAME=your_sonatype_username
+# OSSRH_PASSWORD=your_sonatype_token
+
+# GPG signing
+# SIGNING_KEY_ID=last_8_chars_of_your_key_id
+# SIGNING_KEY=-----BEGIN PGP PRIVATE KEY BLOCK-----\n...\n-----END PGP PRIVATE KEY BLOCK-----
+# SIGNING_PASSWORD=your_pgp_passphrase
