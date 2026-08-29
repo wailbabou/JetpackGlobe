@@ -10,11 +10,10 @@
 
 An interactive, GPU-accelerated **3D Globe component for Jetpack Compose**. Built from first mathematical principles without heavy OpenGL/3D engine dependencies, providing smooth gestures, automatic shortest-path camera centering, item selection with depth perspective, and background blur effects.
 
-
+> 🍎 **iOS Version:** Looking for SwiftUI? Check out [**SwiftUIGlobe**](https://github.com/wailbabou/SwiftUIGlobe) for the native iOS package.  
+> 🚀 **In Production:** Originally crafted and used in the [**Twiny**](https://apps.apple.com/us/app/twiny-find-your-twins/id6449654342) mobile app ([Google Play](https://play.google.com/store/apps/details?id=com.twiny.app) | [App Store](https://apps.apple.com/us/app/twiny-find-your-twins/id6449654342)).
 
 https://github.com/user-attachments/assets/2a6a8fa3-f8bd-401f-9838-60362db51007
-
-
 
 ---
 
@@ -96,7 +95,7 @@ dependencies {
 **Without Version Catalog**:
 ```kotlin
 dependencies {
-    implementation("com.github.wailbabou:JetpackGlobe:1.0.0")
+    implementation("com.github.wailbabou:JetpackGlobe:0.1")
 }
 ```
 
@@ -232,9 +231,10 @@ JetpackGlobe/
 
 ---
 
-## 🙏 Credits
+## 🙏 Credits & Origin
 
-This library was inspired by the globe visualization concept from [**compose_concepts**](https://github.com/pedromassango/compose_concepts) by [@pedromassango](https://github.com/pedromassango). Big thanks for the creative foundation!
+- **Inspiration:** Inspired by the globe visualization concept from [**compose_concepts**](https://github.com/pedromassango/compose_concepts) by [@pedromassango](https://github.com/pedromassango). Big thanks for the creative foundation!
+- **Original App:** First implemented and battle-tested in the [**Twiny**](https://apps.apple.com/us/app/twiny-find-your-twins/id6449654342) mobile app ([Google Play](https://play.google.com/store/apps/details?id=com.twiny.app) / [App Store](https://apps.apple.com/us/app/twiny-find-your-twins/id6449654342)).
 
 ---
 
