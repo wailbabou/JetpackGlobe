@@ -230,6 +230,11 @@ JetpackGlobe/
 
 ---
 
+## 🙏 Credits
+
+This library was inspired by the globe visualization concept from [**compose_concepts**](https://github.com/pedromassango/compose_concepts) by [@pedromassango](https://github.com/pedromassango). Big thanks for the creative foundation!
+
+---
 
 ## 📄 License
 
