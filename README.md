@@ -4,6 +4,8 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0+-7F52FF.svg?style=flat&logo=kotlin)](https://kotlinlang.org)
 [![Compose](https://img.shields.io/badge/Jetpack%20Compose-BOM%202025+-4285F4.svg?style=flat&logo=jetpackcompose)](https://developer.android.com/jetpack/compose)
 [![API](https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=24)
+[![JitPack](https://jitpack.io/v/wailbabou/JetpackGlobe.svg)](https://jitpack.io/#wailbabou/JetpackGlobe)
+[![GitHub release](https://img.shields.io/github/v/release/wailbabou/JetpackGlobe?label=latest)](https://github.com/wailbabou/JetpackGlobe/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 An interactive, GPU-accelerated **3D Globe component for Jetpack Compose**. Built from first mathematical principles without heavy OpenGL/3D engine dependencies, providing smooth gestures, automatic shortest-path camera centering, item selection with depth perspective, and background blur effects.
@@ -79,7 +81,7 @@ dependencyResolutionManagement {
 **Version Catalog (`libs.versions.toml`)**:
 ```toml
 [versions]
-jetpackGlobe = "1.0.0"
+jetpackGlobe = "0.1"
 
 [libraries]
 jetpack-globe = { module = "com.github.wailbabou:JetpackGlobe", version.ref = "jetpackGlobe" }
